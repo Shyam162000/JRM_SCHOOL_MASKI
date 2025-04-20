@@ -1,1 +1,88 @@
+body {
+  background: linear-gradient(135deg, #e9f0fb 0%, #f8f9fa 100%);
+  font-family: 'Roboto', sans-serif;
+  color: #2d3a4a;
+}
+.hero {
+  background: linear-gradient(120deg, #003366 70%, #00509e 100%), url('../assets/hero-placeholder.jpg') center/cover no-repeat;
+  color: #fff;
+  padding: 80px 0;
+  text-shadow: 1px 1px 5px #222;
+  position: relative;
+  overflow: hidden;
+  border-radius: 0 0 40px 40px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+}
+.navbar {
+  box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+}
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.4rem;
+  letter-spacing: 1px;
+}
+.nav-link {
+  transition: color 0.2s;
+}
+.nav-link:hover, .nav-link.active {
+  color: #ffd700 !important;
+}
+.card {
+  box-shadow: 0 4px 18px rgba(0,0,0,0.10);
+  border-radius: 18px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.card:hover {
+  transform: translateY(-8px) scale(1.03);
+  box-shadow: 0 8px 32px rgba(0,80,158,0.13);
+}
+footer {
+  font-size: 1rem;
+  background: linear-gradient(90deg, #003366 70%, #00509e 100%);
+  border-radius: 30px 30px 0 0;
+  box-shadow: 0 -4px 18px rgba(0,0,0,0.07);
+}
+.btn-primary, .btn-outline-primary {
+  border-radius: 24px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  transition: background 0.2s, color 0.2s;
+}
+.btn-primary:hover, .btn-outline-primary:hover {
+  background: #ffd700;
+  color: #003366;
+  border-color: #ffd700;
+}
+.quick-links {
+  background: linear-gradient(90deg, #e3efff 0%, #f8f9fa 100%);
+  border-bottom: 1px solid #e0e6ed;
+}
+ul, ol {
+  margin-bottom: 1.5rem;
+}
+ul li, ol li {
+  margin-bottom: 0.5rem;
+}
+.form-control, textarea {
+  border-radius: 12px;
+  border: 1px solid #b1c9e1;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+.form-control:focus, textarea:focus {
+  border-color: #00509e;
+  box-shadow: 0 0 0 2px #e3efff;
+}
+blockquote {
+  border-left: 4px solid #00509e;
+  background: #f0f6ff;
+  padding: 1rem 1.5rem;
+  font-style: italic;
+  color: #003366;
+  border-radius: 0 12px 12px 0;
+}
+section {
+  border-radius: 18px;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.04);
+}
 
